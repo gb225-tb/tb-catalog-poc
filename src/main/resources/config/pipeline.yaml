@@ -1,0 +1,18 @@
+gcp:
+  projectId: "sand-480914"
+  region: "us-central1"
+  tempLocation: "gs://sand-480914-dataflow-temp/tmp/"
+  serviceAccount: "dataflow-worker-sa@sand-480914.iam.gserviceaccount.com"
+  pubsub:
+    inboundTopic: "projects/sand-480914/topics/tb-catalog-product-inbound"
+    outboundTopic: "projects/sand-480914/topics/tb-catalog-product-outbound"
+    inputSubscription: "projects/sand-480914/subscriptions/tb-catalog-product-inbound-sub"
+
+mongodb:
+  uri: "mongodb+srv://tb_gb225_db_user:7Ao2rXNvNJ9flhG7@tb-menswearclub.535gxzn.mongodb.net/?appName=tb-menswearclub"
+  database: "catalog_db"
+  collection: "products"
+
+pipeline:
+  runner: "DataflowRunner"   # DirectRunner OR DataflowRunner
+  streaming: true
