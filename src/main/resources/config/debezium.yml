@@ -1,0 +1,86 @@
+# ----------------------------------------------------
+# 1) Kubernetes Service Account (Workload Identity)
+# ----------------------------------------------------
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: debezium-ksa
+  annotations:
+    iam.gke.io/gcp-service-account: mongo-connnector-sa@sand-480914.iam.gserviceaccount.com
+---
+# ----------------------------------------------------
+# 2) Debezium Server Configuration
+# ----------------------------------------------------
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: debezium-config
+data:
+  application.properties: |
+    # ---- Sink: Pub/Sub ----
+    debezium.sink.type=pubsub
+    debezium.sink.pubsub.project.id=sand-480914
+    debezium.sink.pubsub.topic.name=projects/sand-480914/topics/tb_catalog_mongo.catalog_db.products
+
+    # ---- Source: MongoDB ----
+    debezium.source.connector.class=io.debezium.connector.mongodb.MongoDbConnector
+    debezium.source.mongodb.connection.string=mongodb+srv://tb_gb225_db_user:7Ao2rXNvNJ9flhG7@tb-menswearclub.535gxzn.mongodb.net/?appName=tb-menswearclub
+    debezium.source.mongodb.name=catalog_db
+    debezium.source.topic.prefix=tb_catalog_mongo
+    debezium.source.mongodb.poll.interval.ms=1000
+
+    # ---- Offset storage ----
+    debezium.source.offset.storage=org.apache.kafka.connect.storage.FileOffsetBackingStore
+    debezium.source.offset.storage.file.filename=/debezium/data/offsets.dat
+    debezium.source.offset.flush.interval.ms=1000
+
+    # ---- Schema history ----
+    debezium.source.schema.history.internal=io.debezium.storage.file.history.FileSchemaHistory
+    debezium.source.schema.history.internal.file.filename=/debezium/data/schema-history.dat
+---
+# ----------------------------------------------------
+# 3) Debezium Server StatefulSet (Autopilot compatible)
+# ----------------------------------------------------
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: debezium-server
+spec:
+  serviceName: debezium
+  replicas: 1
+  selector:
+    matchLabels:
+      app: debezium
+  template:
+    metadata:
+      labels:
+        app: debezium
+    spec:
+      serviceAccountName: debezium-ksa
+      containers:
+        - name: debezium-server
+          image: quay.io/debezium/server:2.6
+          resources:
+            requests:
+              cpu: "500m"
+              memory: "1Gi"
+            limits:
+              cpu: "1"
+              memory: "2Gi"
+          volumeMounts:
+            - name: config
+              mountPath: /debezium/conf
+            - name: data
+              mountPath: /debezium/data
+      volumes:
+        - name: config
+          configMap:
+            name: debezium-config
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi
