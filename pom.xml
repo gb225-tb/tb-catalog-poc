@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tailoredbrand</groupId>
-    <artifactId>tb-catalog-dp</artifactId>
-    <version>1.0.0</version>
-    <packaging>jar</packaging>
-
+    <groupId>com.tailoredbrands</groupId>
+    <artifactId>tb-catalog-poc</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.2.5</version> <relativePath/>
+    </parent>
     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <lombok.version>1.18.32</lombok.version>
+        <beam.version>2.70.0</beam.version>
         <java.version>17</java.version>
-        <beam.version>2.69.0</beam.version>
-        <mongo.driver.version>4.11.1</mongo.driver.version>
-        <snakeyaml.version>1.33</snakeyaml.version>
-        <slf4j.version>2.0.9</slf4j.version>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>confluent</id>
-            <url>https://packages.confluent.io/maven/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-
-
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
 
-        <!-- Apache Beam Core -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-core</artifactId>
@@ -43,141 +43,95 @@
 
         <dependency>
             <groupId>org.apache.beam</groupId>
+            <artifactId>beam-sdks-java-io-mongodb</artifactId>
+            <version>${beam.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.beam</groupId>
             <artifactId>beam-sdks-java-io-google-cloud-platform</artifactId>
-            <version>${beam.version}</version>
-        </dependency>
-
-        <!-- Direct Runner -->
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-runners-direct-java</artifactId>
-            <version>${beam.version}</version>
-        </dependency>
-
-        <!-- Dataflow Runner -->
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
             <version>${beam.version}</version>
             <exclusions>
                 <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-jdk14</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+                <exclusion>
                     <groupId>org.apache.beam</groupId>
-                    <artifactId>beam-sdks-java-io-kafka</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.confluent</groupId>
-                    <artifactId>*</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.kafka</groupId>
-                    <artifactId>*</artifactId>
+                    <artifactId>beam-sdks-java-transform-service-launcher</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
 
-        <!-- Pub/Sub IO -->
         <dependency>
             <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-io-google-cloud-platform</artifactId>
+            <artifactId>beam-runners-direct-java</artifactId>
             <version>${beam.version}</version>
+            <scope>runtime</scope>
         </dependency>
 
-        <!-- MongoDB Driver -->
         <dependency>
-            <groupId>org.mongodb</groupId>
-            <artifactId>mongodb-driver-sync</artifactId>
-            <version>${mongo.driver.version}</version>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
         </dependency>
 
-        <!-- YAML Loader -->
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>${snakeyaml.version}</version>
-        </dependency>
-
-        <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.4.14</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-extensions-google-cloud-platform-core</artifactId>
-            <version>${beam.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>io.confluent</groupId>
-            <artifactId>kafka-avro-serializer</artifactId>
-            <version>5.3.2</version>
+            <version>2.0.7</version>
         </dependency>
         <dependency>
-            <groupId>io.confluent</groupId>
-            <artifactId>kafka-schema-registry-client</artifactId>
-            <version>5.3.2</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.beam</groupId>
-            <artifactId>beam-sdks-java-io-kafka</artifactId>
-            <version>${beam.version}</version> <!-- match your Beam version -->
+            <artifactId>beam-runners-google-cloud-dataflow-java</artifactId>
+            <version>2.70.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+        <groupId>org.apache.beam</groupId>
+        <artifactId>beam-runners-direct-java</artifactId>
+        <version>2.70.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
     </dependencies>
-
     <build>
         <plugins>
-
-            <!-- Java 17 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <release>${java.version}</release>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+
+                    <!-- Lombok annotation processing -->
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
-
-            <!-- For mvn exec:java -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <mainClass>com.tailoredbrand.streaming.Main</mainClass>
-                </configuration>
-            </plugin>
-
-            <!-- Shade Plugin for Dataflow fat-jar -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.4.1</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-                            </transformers>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-
         </plugins>
     </build>
-
 </project>

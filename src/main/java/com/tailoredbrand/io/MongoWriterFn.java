@@ -1,7 +1,6 @@
 package com.tailoredbrand.io;
 
 import com.mongodb.client.*;
-import com.tailoredbrand.config.AppConfig;
 import org.apache.beam.sdk.transforms.DoFn;
 import org.bson.Document;
 

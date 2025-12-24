@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /tb-catalog-poc
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tb_gb225_db_user:7Ao2rXNvNJ9flhG7@tb-menswearclub.535gxzn.mongodb.net/?appName=tb-menswearclub
+      database: digital_catalog
+
+gcp:
+  project-id: sand-480914
+  pubsub:
+    topic: RFW-478
+    subscription: RFW-478-sub

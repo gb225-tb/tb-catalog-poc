@@ -3,7 +3,6 @@ package com.tailoredbrand.streaming;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.tailoredbrand.config.AppConfig;
 import com.tailoredbrand.config.YamlConfigLoader;
-import com.tailoredbrand.pipeline.Publisher;
 import com.tailoredbrand.pipeline.Subscriber;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.extensions.gcp.options.GcpOptions;
@@ -15,7 +14,7 @@ import org.apache.beam.sdk.io.gcp.pubsub.PubsubOptions;
 
 import java.io.IOException;
 
-public class Main {
+public class ProductIngestionProcessor {
 
     public static void main(String[] args) throws IOException {
 

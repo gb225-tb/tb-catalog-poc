@@ -1,4 +1,4 @@
-package com.tailoredbrand;
+package com.tailoredbrand.utils;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
