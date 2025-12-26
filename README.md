@@ -4,33 +4,65 @@
 - Reactive Spring Boot application using **WebFlux**
 - Publishes JSON events to **Google Cloud Pub/Sub**
 - Consumes messages using **reactive Flux subscriber**
-- Runs on **Google Cloud Dataflow (Apache Beam runner)**
+- Executes processing pipelines on **Google Cloud Dataflow (Apache Beam)**
 - Persists processed data into **MongoDB Atlas**
-- Cloud resources secured using **GCP IAM & Service Accounts**
+- Secured using **GCP IAM & Service Accounts**
+
+---
+
+## Architecture (Mermaid Diagram)
+
+```mermaid
+flowchart LR
+    A[Client / UI] --> B[Reactive Spring Boot API<br/>Spring WebFlux]
+    B --> C[Google Cloud Pub/Sub<br/>Topic]
+    C --> D[Pub/Sub Subscription]
+    D --> E[Apache Beam Pipeline<br/>Dataflow]
+    E --> F[MongoDB Atlas]
+```
+
+---
+
+## Sequence Diagram
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant API as Reactive API
+    participant PubSub
+    participant Dataflow
+    participant Mongo
+
+    Client->>API: POST /api/v1/publish (JSON)
+    API->>PubSub: Publish message
+    PubSub->>Dataflow: Deliver message
+    Dataflow->>Mongo: Insert processed data
+    Dataflow-->>PubSub: Ack message
+```
 
 ---
 
 ## Account & Access Context
-- **GCP Infrastructure**
+- **GCP Project & Infrastructure**
   - Created using **personal Gmail account**
   - Reason: Office email lacked permission for Cloud Storage bucket creation
 - **MongoDB Atlas**
-  - Created and managed using **office email ID**
-- Runtime access is handled using **IAM service accounts**
+  - Created using **office email ID**
+- Runtime access secured via **IAM service accounts**
 
 ---
 
-## GCP Project Details
+## GCP Project
 - **Project ID:** `sand-480914`
 
 ---
 
-## GCP Services Used
-- Google Cloud Pub/Sub
-- Google Cloud Dataflow (Apache Beam)
-- Google Cloud Storage
-- Google Cloud IAM
-- Google Cloud Service Accounts
+## GCP Services
+- Pub/Sub
+- Dataflow (Apache Beam)
+- Cloud Storage
+- IAM
+- Service Accounts
 
 ---
 
@@ -44,33 +76,23 @@
 
 ## Cloud Storage
 - **Bucket:** `sand-480914-dataflow-temp`
-- **Purpose**
-  - Dataflow staging
-  - Temporary pipeline execution files
+- **Usage:** Dataflow staging & temp files
 
 ---
 
 ## Service Accounts & IAM
 
-### Spring Boot / Apache Beam Application
-- **Service Account**
-  ```
-  tb-catalog-product-srvc-acc@sand-480914.iam.gserviceaccount.com
-  ```
-- **Roles**
+### Application Service Account
+- `tb-catalog-product-srvc-acc@sand-480914.iam.gserviceaccount.com`
+- Roles:
   - Pub/Sub Admin
   - Dataflow Admin
   - Storage Admin
-  - BigQuery User (future use)
+  - BigQuery User
 
----
-
-### Dataflow Worker
-- **Service Account**
-  ```
-  dataflow-worker-sa@sand-480914.iam.gserviceaccount.com
-  ```
-- **Roles**
+### Dataflow Worker Service Account
+- `dataflow-worker-sa@sand-480914.iam.gserviceaccount.com`
+- Roles:
   - Dataflow Admin
   - Dataflow Developer
   - Service Account User
@@ -78,88 +100,49 @@
 
 ---
 
-## Reactive Spring Boot API
+## Reactive API
 
-### Features
-- Non-blocking REST API
-- Reactive Pub/Sub publisher
-- Flux-based subscriber
-- Backpressure-aware processing
-
-### API Endpoint
+### Endpoint
 ```
 POST /api/v1/publish
 ```
 
-- Accepts JSON payload
-- Publishes message asynchronously to Pub/Sub
-
----
-
-## Architecture Diagram
-
-```
-+-------------------+
-|   Client / UI     |
-+-------------------+
-          |
-          v
-+---------------------------+
-| Reactive Spring Boot API  |
-| (Spring WebFlux)          |
-+---------------------------+
-          |
-          v
-+---------------------------+
-| Google Cloud Pub/Sub      |
-| Topic                     |
-+---------------------------+
-          |
-          v
-+---------------------------+
-| Pub/Sub Subscription      |
-+---------------------------+
-          |
-          v
-+---------------------------+
-| Apache Beam Pipeline      |
-| (Google Dataflow)         |
-+---------------------------+
-          |
-          v
-+---------------------------+
-| MongoDB Atlas             |
-+---------------------------+
+### Example Payload
+```json
+{
+  "productId": "P1001",
+  "eventType": "CREATE",
+  "price": 79999
+}
 ```
 
 ---
 
-## End-to-End Data Flow
-- Client sends JSON request
-- Reactive API publishes message to Pub/Sub
-- Pub/Sub triggers Dataflow pipeline
-- Apache Beam processes message
-- Data stored in MongoDB Atlas
+## Local Run
+```bash
+mvn spring-boot:run
+```
 
 ---
 
-## Key Characteristics
-- Fully reactive & non-blocking
-- Cloud-native and scalable
-- Secure IAM-based authentication
-- Production-ready design
+## Deployment Options
+- Google Cloud Dataflow
+- Google Cloud Run
+- GKE
+- Compute Engine
 
 ---
 
 ## Error Handling
-- Messages acknowledged only on success
-- Automatic Pub/Sub retry on failure
-- Dead Letter Topic ready (future)
+- Ack on success
+- Automatic Pub/Sub retries
+- Dead Letter Topic (future)
 
 ---
 
 ## Future Enhancements
-- Dead Letter Topics
-- BigQuery analytics sink
+- DLT integration
+- BigQuery sink
 - OpenTelemetry tracing
-- Metrics with Micrometer
+- Micrometer metrics
+- Schema validation
