@@ -1,0 +1,89 @@
+{
+  "_tiers": "Tier-1: 9c405e7c-0d87-4963-af46-de4355fdd1e0 | Tier-2: ce66dd7e-c375-4f43-9203-0d9c314ade78",
+
+  "=== TIER-1 EXAMPLE (Product-Tier1 — division-routed, e.g. division=10) ===": {},
+
+  "key": "TMW_999",
+  "productType": {
+    "typeId": "product-type",
+    "id": "9c405e7c-0d87-4963-af46-de4355fdd1e0"
+  },
+  "name":        { "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+  "slug":        { "en-US": "tmw-999" },
+  "description": { "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+  "attributes": [
+    { "name": "classCode",           "value": "100L"                              },
+    { "name": "superGroup",          "value": "SVSEASSPCOAT"                      },
+    { "name": "group",               "value": "SV2BSEAS"                          },
+    { "name": "superDivision",       "value": "MEN"                               },
+    { "name": "division",            "value": "10"                                },
+    { "name": "divisionDescription", "value": "SPORT COATS"                       },
+    { "name": "subDivision",         "value": "SEASONALSPORTCOATS"                },
+    { "name": "webLongDescription",  "value": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+    { "name": "webFlag",             "value": 2                                   },
+    { "name": "fit",                 "value": "SLIM FIT"                          },
+    { "name": "label",               "value": "CALVIN KLEIN X"                   },
+    { "name": "seasonCode",          "value": "S25"                               },
+    { "name": "regularClassCode",    "value": "100L"                              },
+    { "name": "taxTypeTaxware",      "value": "2038356"                           },
+    { "name": "material",            "value": "POLYESTER BLEND"                   },
+    { "name": "content",             "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX" },
+    { "name": "pattern",             "value": "PLAID"                             },
+    { "name": "collectionName",      "value": ""                                  },
+    { "name": "categories",          "value": "SPORT COATS"                       },
+    { "name": "packageQty",          "value": "0"                                 },
+    { "name": "hazardousFlag",       "value": 0                                   },
+    { "name": "isBundle",            "value": 0                                   },
+    { "name": "isRental",            "value": 0                                   },
+    { "name": "lapelStyle",          "value": "NOTCH LAPEL"                       },
+    { "name": "origin",              "value": "IMPORTED"                          },
+    { "name": "careInstructions",    "value": "DRY CLEAN ONLY"                    }
+  ],
+  "masterVariant": {
+    "key": "TMW_999-TMW999L38115",
+    "sku": "TMW999L38115",
+    "prices": []
+  },
+
+  "=== TIER-2 EXAMPLE (Product-Tier2 — all other divisions) ===": {},
+
+  "_tier2_example": {
+    "key": "TMW_COLORGROUP",
+    "productType": {
+      "typeId": "product-type",
+      "id": "ce66dd7e-c375-4f43-9203-0d9c314ade78"
+    },
+    "name":        { "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+    "slug":        { "en-US": "tmw-colorgroup" },
+    "description": { "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+    "attributes": [
+      { "name": "productColorCode",  "value": "15"          },
+      { "name": "colorDesc",         "value": "LIGHT BLUE"  },
+      { "name": "colorBreakoutDesc", "value": "BLUE NEAT"   },
+      { "name": "colorFamily",       "value": "BLUE"        },
+      { "name": "label",             "value": "CALVIN KLEIN X" },
+      { "name": "webLongDesc",       "value": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT" },
+      { "name": "dateAvailableToSell", "value": "12/3/24"   }
+    ],
+    "masterVariant": {
+      "key": "TMW_COLORGROUP-TMW999L38115",
+      "sku": "TMW999L38115",
+      "prices": [],
+      "attributes": [
+        { "name": "sizeCode",             "value": 381           },
+        { "name": "primarySize",          "value": "38"          },
+        { "name": "isPermanentMarkdown",  "value": 0             },
+        { "name": "isTemporaryMarkdown",  "value": false         },
+        { "name": "isBigAndTall",         "value": false         },
+        { "name": "noWarehouseStock",     "value": false         },
+        { "name": "isClearance",          "value": false         },
+        { "name": "isSale",               "value": false         },
+        { "name": "skulabel",             "value": "TMW999L38115"},
+        { "name": "taxTypeTaxware",       "value": "2038356"     },
+        { "name": "sizeDescription",      "value": "38 Short"    },
+        { "name": "sizeDimension",        "value": "SHORT"       },
+        { "name": "sizeSequence",         "value": 1900          }
+      ]
+    }
+  }
+}

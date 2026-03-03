@@ -14,5 +14,38 @@ mongodb:
   collection: "products"
 
 pipeline:
-  runner: "DataflowRunner"   # DirectRunner OR DataflowRunner
+  runner: "DirectRunner"   # DirectRunner OR DataflowRunner
   streaming: true
+
+csv:
+  inputFile: "src/main/resources/Data/TBUniverseProducts.csv"
+
+commerce:
+  # ── Token endpoint (OAuth2 client-credentials) ────────────────────────────
+  authUrl: "https://auth.us-central1.gcp.commercetools.com"
+  # Base64-encoded clientId:clientSecret  ← keep secret in production
+  clientCredentials: "TXhiNHd4N2UxdlgxWFBrM01IQktlci1OOlBiV0NnY0lVdE84UDlRUHpGcXpOT2lQUlBJMG1yWjRu"
+  scope: "manage_products:data-import"
+
+  # ── Products API ──────────────────────────────────────────────────────────
+  apiUrl: "https://api.us-central1.gcp.commercetools.com"
+  projectKey: "data-import"
+
+  # Primary product type – required (or leave blank to auto-detect when exactly one type exists).
+  productTypeKey: "9c405e7c-0d87-4963-af46-de4355fdd1e0"
+
+  # Secondary product type – optional.
+  # When set, records are routed to primary or secondary based on the division routing rule below.
+  secondaryProductTypeKey: "ce66dd7e-c375-4f43-9203-0d9c314ade78"
+
+  # Legacy division-based routing (no longer used for the dual-post flow).
+  # Every CSV row now creates/updates BOTH a Tier-1 and a Tier-2 product.
+  # Kept here for backward compatibility; has no effect on the current pipeline.
+  primaryProductTypeDivisions:
+    - "10"
+
+  # ── Resilience ────────────────────────────────────────────────────────────
+  connectTimeoutMs: 5000
+  readTimeoutMs: 15000
+  maxRetries: 3
+  backoffMs: 500

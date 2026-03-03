@@ -1,0 +1,4674 @@
+{
+    "id": "2543207c-4f8a-4d8b-9229-89330fc9a1ee",
+    "version": 29,
+    "versionModifiedAt": "2025-12-10T20:45:30.545Z",
+    "lastMessageSequenceNumber": 3,
+    "createdAt": "2025-12-09T23:43:00.959Z",
+    "lastModifiedAt": "2025-12-10T20:45:30.545Z",
+    "lastModifiedBy": {
+        "isPlatformClient": true
+    },
+    "createdBy": {
+        "isPlatformClient": true
+    },
+    "productType": {
+        "typeId": "product-type",
+        "id": "2aaf1ffa-30fa-40af-915b-1a7025807f2b"
+    },
+    "masterData": {
+        "current": {
+            "name": {
+                "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT"
+            },
+            "categories": [
+                {
+                    "typeId": "category",
+                    "id": "8a507499-203c-4110-868e-71648c53eb21"
+                }
+            ],
+            "categoryOrderHints": {},
+            "slug": {
+                "en-US": "calvin-klein-slim-fit-2btn-notch-sv-sb-sport-coat"
+            },
+            "masterVariant": {
+                "id": 1,
+                "sku": "TMW100L38115",
+                "key": "TMW_100L-TMW100L38115",
+                "prices": [
+                    {
+                        "id": "84fb656f-3641-41a5-b455-3fcfbaf70d6e",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 6250,
+                            "fractionDigits": 2
+                        },
+                        "key": "TMW_100L-TMW100L38115-price-0"
+                    }
+                ],
+                "images": [],
+                "attributes": [
+                    {
+                        "name": "SizeDimension",
+                        "value": "SHORT"
+                    },
+                    {
+                        "name": "AdditionalCopy",
+                        "value": "<><><><>"
+                    },
+                    {
+                        "name": "IsBundle",
+                        "value": false
+                    },
+                    {
+                        "name": "SizeDescription",
+                        "value": "38 Short"
+                    },
+                    {
+                        "name": "Occasion",
+                        "value": "CASUAL<>VACATION<>WORK"
+                    },
+                    {
+                        "name": "TaxTypeTaxware",
+                        "value": 2038356
+                    },
+                    {
+                        "name": "ColorFamily",
+                        "value": "BLUE"
+                    },
+                    {
+                        "name": "ItemCreateDate",
+                        "value": "9/20/24"
+                    },
+                    {
+                        "name": "SubDivision",
+                        "value": "SEASONALSPORTCOATS"
+                    },
+                    {
+                        "name": "ItemUpdateDate",
+                        "value": "7/12/25"
+                    },
+                    {
+                        "name": "LapelStyle",
+                        "value": "NOTCH LAPEL"
+                    },
+                    {
+                        "name": "IsPermanentMarkdown",
+                        "value": true
+                    },
+                    {
+                        "name": "CareInstructions",
+                        "value": "DRY CLEAN ONLY"
+                    },
+                    {
+                        "name": "SizeSequence",
+                        "value": 1900
+                    },
+                    {
+                        "name": "Content",
+                        "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                    },
+                    {
+                        "name": "DivisionDescription",
+                        "value": "SPORT COATS"
+                    },
+                    {
+                        "name": "Pattern",
+                        "value": "PLAID"
+                    },
+                    {
+                        "name": "Categories",
+                        "value": "SPORT COATS"
+                    },
+                    {
+                        "name": "Division",
+                        "value": 10
+                    },
+                    {
+                        "name": "IsTemporaryMarkDown",
+                        "value": false
+                    },
+                    {
+                        "name": "Origin",
+                        "value": "IMPORTED"
+                    },
+                    {
+                        "name": "DateAvailableToSell",
+                        "value": "12/3/24"
+                    },
+                    {
+                        "name": "Material",
+                        "value": "POLYESTER BLEND"
+                    },
+                    {
+                        "name": "NoWarehouseStock",
+                        "value": false
+                    },
+                    {
+                        "name": "SeasonCode",
+                        "value": "S25"
+                    },
+                    {
+                        "name": "RegClassCode",
+                        "value": "100L"
+                    },
+                    {
+                        "name": "Group",
+                        "value": "SV2BSEAS"
+                    },
+                    {
+                        "name": "ProductColorCode",
+                        "value": 15
+                    },
+                    {
+                        "name": "Label",
+                        "value": "CALVIN KLEIN X"
+                    },
+                    {
+                        "name": "SuperDivision",
+                        "value": "MEN"
+                    },
+                    {
+                        "name": "SizeCode",
+                        "value": 381
+                    },
+                    {
+                        "name": "HazardousFlag",
+                        "value": false
+                    },
+                    {
+                        "name": "WebFlag",
+                        "value": 2
+                    },
+                    {
+                        "name": "ColorDesc",
+                        "value": "LIGHT BLUE"
+                    },
+                    {
+                        "name": "ColorBreakoutDesc",
+                        "value": "BLUE NEAT"
+                    },
+                    {
+                        "name": "BigAndTallFlag",
+                        "value": false
+                    },
+                    {
+                        "name": "SpecialSizes",
+                        "value": "MENS REGULAR"
+                    },
+                    {
+                        "name": "SuperGroup",
+                        "value": "SVSEASSPCOAT"
+                    },
+                    {
+                        "name": "PrimarySize",
+                        "value": 38
+                    },
+                    {
+                        "name": "BTClassCode",
+                        "value": "100M"
+                    },
+                    {
+                        "name": "Fit",
+                        "value": "SLIM FIT"
+                    }
+                ],
+                "assets": [],
+                "availability": {
+                    "isOnStock": true,
+                    "restockableInDays": 7,
+                    "availableQuantity": 100,
+                    "version": 1,
+                    "id": "fd4b08df-ea79-4f2f-aa72-bb4dab98bd73"
+                }
+            },
+            "variants": [
+                {
+                    "id": 2,
+                    "sku": "TMW100L38215",
+                    "key": "TMW_100L-TMW100L38215",
+                    "prices": [
+                        {
+                            "id": "8d73c9ee-c977-4b4e-b919-fb38e15960ab",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L38215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "38 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 3700
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 382
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 38
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "71a66484-4537-4174-9331-825582192077"
+                    }
+                },
+                {
+                    "id": 3,
+                    "sku": "TMW100L40115",
+                    "key": "TMW_100L-TMW100L40115",
+                    "prices": [
+                        {
+                            "id": "f7a3f7fb-92e7-472e-8ea7-d36a25396374",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L40115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "40 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 401
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 40
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "b6338cae-3d68-4037-aff6-5d87d291395d"
+                    }
+                },
+                {
+                    "id": 4,
+                    "sku": "TMW100L40215",
+                    "key": "TMW_100L-TMW100L40215",
+                    "prices": [
+                        {
+                            "id": "2d71bfaa-9279-4bf4-b668-cab631b74c5a",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L40215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "40 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 3900
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 402
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 40
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "4490e9ce-dd77-4f18-9864-52dc570999fc"
+                    }
+                },
+                {
+                    "id": 5,
+                    "sku": "TMW100L42115",
+                    "key": "TMW_100L-TMW100L42115",
+                    "prices": [
+                        {
+                            "id": "b855be17-f3a4-4db5-a217-abdc417d6b28",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2300
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 421
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "09068c61-88f4-4e67-a2ea-d6d0b624b283"
+                    }
+                },
+                {
+                    "id": 6,
+                    "sku": "TMW100L42215",
+                    "key": "TMW_100L-TMW100L42215",
+                    "prices": [
+                        {
+                            "id": "fd56b1bc-b632-47d0-b337-252438153fd7",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 422
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "df8180a4-d6d7-4f1a-afe9-3c144b725428"
+                    }
+                },
+                {
+                    "id": 7,
+                    "sku": "TMW100L42315",
+                    "key": "TMW_100L-TMW100L42315",
+                    "prices": [
+                        {
+                            "id": "15b685fd-cf56-45ff-b214-43d99933f474",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 6700
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 423
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "f39b9556-7098-49c7-a9f4-4bfeb34c8b0b"
+                    }
+                },
+                {
+                    "id": 8,
+                    "sku": "TMW100L44115",
+                    "key": "TMW_100L-TMW100L44115",
+                    "prices": [
+                        {
+                            "id": "5e862855-b72d-448a-ab99-a501afab9a16",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2500
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 441
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "5056b71b-c1de-4357-b862-fb4eaff52ef9"
+                    }
+                },
+                {
+                    "id": 9,
+                    "sku": "TMW100L44215",
+                    "key": "TMW_100L-TMW100L44215",
+                    "prices": [
+                        {
+                            "id": "086bdcd8-a98b-43dd-96c7-028cc4a07d83",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4300
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 442
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "1244acc1-29de-4688-bc78-a0c0554a60f0"
+                    }
+                },
+                {
+                    "id": 10,
+                    "sku": "TMW100L44315",
+                    "key": "TMW_100L-TMW100L44315",
+                    "prices": [
+                        {
+                            "id": "4583672a-0428-4b6d-87a2-c9a6e9973513",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 6900
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 443
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "01d50e3d-84a8-441d-a71c-f8609dc9d813"
+                    }
+                },
+                {
+                    "id": 11,
+                    "sku": "TMW100L46215",
+                    "key": "TMW_100L-TMW100L46215",
+                    "prices": [
+                        {
+                            "id": "023ef2f0-9b0f-4fd7-be86-f6828abb4c79",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L46215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "46 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4500
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 462
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 46
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "432069e8-ff59-4092-b1c3-53543370461f"
+                    }
+                },
+                {
+                    "id": 12,
+                    "sku": "TMW100L46315",
+                    "key": "TMW_100L-TMW100L46315",
+                    "prices": [
+                        {
+                            "id": "db72f1f7-157d-4d5f-8c5d-4bf406b80f97",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L46315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "46 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 7100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 463
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 46
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "972fd43e-4dc1-4498-ab8c-eaeb1f2b2206"
+                    }
+                }
+            ],
+            "searchKeywords": {},
+            "attributes": []
+        },
+        "staged": {
+            "name": {
+                "en-US": "CALVIN KLEIN SLIM FIT 2BTN NOTCH SV SB SPORT COAT"
+            },
+            "categories": [
+                {
+                    "typeId": "category",
+                    "id": "8a507499-203c-4110-868e-71648c53eb21"
+                }
+            ],
+            "categoryOrderHints": {},
+            "slug": {
+                "en-US": "calvin-klein-slim-fit-2btn-notch-sv-sb-sport-coat"
+            },
+            "masterVariant": {
+                "id": 1,
+                "sku": "TMW100L38115",
+                "key": "TMW_100L-TMW100L38115",
+                "prices": [
+                    {
+                        "id": "84fb656f-3641-41a5-b455-3fcfbaf70d6e",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 6250,
+                            "fractionDigits": 2
+                        },
+                        "key": "TMW_100L-TMW100L38115-price-0"
+                    }
+                ],
+                "images": [],
+                "attributes": [
+                    {
+                        "name": "SizeDimension",
+                        "value": "SHORT"
+                    },
+                    {
+                        "name": "AdditionalCopy",
+                        "value": "<><><><>"
+                    },
+                    {
+                        "name": "IsBundle",
+                        "value": false
+                    },
+                    {
+                        "name": "SizeDescription",
+                        "value": "38 Short"
+                    },
+                    {
+                        "name": "Occasion",
+                        "value": "CASUAL<>VACATION<>WORK"
+                    },
+                    {
+                        "name": "TaxTypeTaxware",
+                        "value": 2038356
+                    },
+                    {
+                        "name": "ColorFamily",
+                        "value": "BLUE"
+                    },
+                    {
+                        "name": "ItemCreateDate",
+                        "value": "9/20/24"
+                    },
+                    {
+                        "name": "SubDivision",
+                        "value": "SEASONALSPORTCOATS"
+                    },
+                    {
+                        "name": "ItemUpdateDate",
+                        "value": "7/12/25"
+                    },
+                    {
+                        "name": "LapelStyle",
+                        "value": "NOTCH LAPEL"
+                    },
+                    {
+                        "name": "IsPermanentMarkdown",
+                        "value": true
+                    },
+                    {
+                        "name": "CareInstructions",
+                        "value": "DRY CLEAN ONLY"
+                    },
+                    {
+                        "name": "SizeSequence",
+                        "value": 1900
+                    },
+                    {
+                        "name": "Content",
+                        "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                    },
+                    {
+                        "name": "DivisionDescription",
+                        "value": "SPORT COATS"
+                    },
+                    {
+                        "name": "Pattern",
+                        "value": "PLAID"
+                    },
+                    {
+                        "name": "Categories",
+                        "value": "SPORT COATS"
+                    },
+                    {
+                        "name": "Division",
+                        "value": 10
+                    },
+                    {
+                        "name": "IsTemporaryMarkDown",
+                        "value": false
+                    },
+                    {
+                        "name": "Origin",
+                        "value": "IMPORTED"
+                    },
+                    {
+                        "name": "DateAvailableToSell",
+                        "value": "12/3/24"
+                    },
+                    {
+                        "name": "Material",
+                        "value": "POLYESTER BLEND"
+                    },
+                    {
+                        "name": "NoWarehouseStock",
+                        "value": false
+                    },
+                    {
+                        "name": "SeasonCode",
+                        "value": "S25"
+                    },
+                    {
+                        "name": "RegClassCode",
+                        "value": "100L"
+                    },
+                    {
+                        "name": "Group",
+                        "value": "SV2BSEAS"
+                    },
+                    {
+                        "name": "ProductColorCode",
+                        "value": 15
+                    },
+                    {
+                        "name": "Label",
+                        "value": "CALVIN KLEIN X"
+                    },
+                    {
+                        "name": "SuperDivision",
+                        "value": "MEN"
+                    },
+                    {
+                        "name": "SizeCode",
+                        "value": 381
+                    },
+                    {
+                        "name": "HazardousFlag",
+                        "value": false
+                    },
+                    {
+                        "name": "WebFlag",
+                        "value": 2
+                    },
+                    {
+                        "name": "ColorDesc",
+                        "value": "LIGHT BLUE"
+                    },
+                    {
+                        "name": "ColorBreakoutDesc",
+                        "value": "BLUE NEAT"
+                    },
+                    {
+                        "name": "BigAndTallFlag",
+                        "value": false
+                    },
+                    {
+                        "name": "SpecialSizes",
+                        "value": "MENS REGULAR"
+                    },
+                    {
+                        "name": "SuperGroup",
+                        "value": "SVSEASSPCOAT"
+                    },
+                    {
+                        "name": "PrimarySize",
+                        "value": 38
+                    },
+                    {
+                        "name": "BTClassCode",
+                        "value": "100M"
+                    },
+                    {
+                        "name": "Fit",
+                        "value": "SLIM FIT"
+                    }
+                ],
+                "assets": [],
+                "availability": {
+                    "isOnStock": true,
+                    "restockableInDays": 7,
+                    "availableQuantity": 100,
+                    "version": 1,
+                    "id": "fd4b08df-ea79-4f2f-aa72-bb4dab98bd73"
+                }
+            },
+            "variants": [
+                {
+                    "id": 2,
+                    "sku": "TMW100L38215",
+                    "key": "TMW_100L-TMW100L38215",
+                    "prices": [
+                        {
+                            "id": "8d73c9ee-c977-4b4e-b919-fb38e15960ab",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L38215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "38 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 3700
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 382
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 38
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "71a66484-4537-4174-9331-825582192077"
+                    }
+                },
+                {
+                    "id": 3,
+                    "sku": "TMW100L40115",
+                    "key": "TMW_100L-TMW100L40115",
+                    "prices": [
+                        {
+                            "id": "f7a3f7fb-92e7-472e-8ea7-d36a25396374",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L40115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "40 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 401
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 40
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "b6338cae-3d68-4037-aff6-5d87d291395d"
+                    }
+                },
+                {
+                    "id": 4,
+                    "sku": "TMW100L40215",
+                    "key": "TMW_100L-TMW100L40215",
+                    "prices": [
+                        {
+                            "id": "2d71bfaa-9279-4bf4-b668-cab631b74c5a",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L40215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "40 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 3900
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 402
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 40
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "4490e9ce-dd77-4f18-9864-52dc570999fc"
+                    }
+                },
+                {
+                    "id": 5,
+                    "sku": "TMW100L42115",
+                    "key": "TMW_100L-TMW100L42115",
+                    "prices": [
+                        {
+                            "id": "b855be17-f3a4-4db5-a217-abdc417d6b28",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2300
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 421
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "09068c61-88f4-4e67-a2ea-d6d0b624b283"
+                    }
+                },
+                {
+                    "id": 6,
+                    "sku": "TMW100L42215",
+                    "key": "TMW_100L-TMW100L42215",
+                    "prices": [
+                        {
+                            "id": "fd56b1bc-b632-47d0-b337-252438153fd7",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 422
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "df8180a4-d6d7-4f1a-afe9-3c144b725428"
+                    }
+                },
+                {
+                    "id": 7,
+                    "sku": "TMW100L42315",
+                    "key": "TMW_100L-TMW100L42315",
+                    "prices": [
+                        {
+                            "id": "15b685fd-cf56-45ff-b214-43d99933f474",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L42315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "42 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 6700
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 423
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 42
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "f39b9556-7098-49c7-a9f4-4bfeb34c8b0b"
+                    }
+                },
+                {
+                    "id": 8,
+                    "sku": "TMW100L44115",
+                    "key": "TMW_100L-TMW100L44115",
+                    "prices": [
+                        {
+                            "id": "5e862855-b72d-448a-ab99-a501afab9a16",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44115-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "SHORT"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Short"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 2500
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 441
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "5056b71b-c1de-4357-b862-fb4eaff52ef9"
+                    }
+                },
+                {
+                    "id": 9,
+                    "sku": "TMW100L44215",
+                    "key": "TMW_100L-TMW100L44215",
+                    "prices": [
+                        {
+                            "id": "086bdcd8-a98b-43dd-96c7-028cc4a07d83",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4300
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 442
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "1244acc1-29de-4688-bc78-a0c0554a60f0"
+                    }
+                },
+                {
+                    "id": 10,
+                    "sku": "TMW100L44315",
+                    "key": "TMW_100L-TMW100L44315",
+                    "prices": [
+                        {
+                            "id": "4583672a-0428-4b6d-87a2-c9a6e9973513",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L44315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "44 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 6900
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 443
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 44
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "01d50e3d-84a8-441d-a71c-f8609dc9d813"
+                    }
+                },
+                {
+                    "id": 11,
+                    "sku": "TMW100L46215",
+                    "key": "TMW_100L-TMW100L46215",
+                    "prices": [
+                        {
+                            "id": "023ef2f0-9b0f-4fd7-be86-f6828abb4c79",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L46215-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "REGULAR"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "46 Regular"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 4500
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 462
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 46
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "432069e8-ff59-4092-b1c3-53543370461f"
+                    }
+                },
+                {
+                    "id": 12,
+                    "sku": "TMW100L46315",
+                    "key": "TMW_100L-TMW100L46315",
+                    "prices": [
+                        {
+                            "id": "db72f1f7-157d-4d5f-8c5d-4bf406b80f97",
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 6250,
+                                "fractionDigits": 2
+                            },
+                            "key": "TMW_100L-TMW100L46315-price-0"
+                        }
+                    ],
+                    "images": [],
+                    "attributes": [
+                        {
+                            "name": "SizeDimension",
+                            "value": "LONG"
+                        },
+                        {
+                            "name": "AdditionalCopy",
+                            "value": "<><><><>"
+                        },
+                        {
+                            "name": "IsBundle",
+                            "value": false
+                        },
+                        {
+                            "name": "SizeDescription",
+                            "value": "46 Long"
+                        },
+                        {
+                            "name": "Occasion",
+                            "value": "CASUAL<>VACATION<>WORK"
+                        },
+                        {
+                            "name": "TaxTypeTaxware",
+                            "value": 2038356
+                        },
+                        {
+                            "name": "ColorFamily",
+                            "value": "BLUE"
+                        },
+                        {
+                            "name": "ItemCreateDate",
+                            "value": "9/20/24"
+                        },
+                        {
+                            "name": "SubDivision",
+                            "value": "SEASONALSPORTCOATS"
+                        },
+                        {
+                            "name": "ItemUpdateDate",
+                            "value": "7/12/25"
+                        },
+                        {
+                            "name": "LapelStyle",
+                            "value": "NOTCH LAPEL"
+                        },
+                        {
+                            "name": "IsPermanentMarkdown",
+                            "value": true
+                        },
+                        {
+                            "name": "CareInstructions",
+                            "value": "DRY CLEAN ONLY"
+                        },
+                        {
+                            "name": "SizeSequence",
+                            "value": 7100
+                        },
+                        {
+                            "name": "Content",
+                            "value": "83%POLYESTER/15%VISCOSE/2%SPANDEX"
+                        },
+                        {
+                            "name": "DivisionDescription",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Pattern",
+                            "value": "PLAID"
+                        },
+                        {
+                            "name": "Categories",
+                            "value": "SPORT COATS"
+                        },
+                        {
+                            "name": "Division",
+                            "value": 10
+                        },
+                        {
+                            "name": "IsTemporaryMarkDown",
+                            "value": false
+                        },
+                        {
+                            "name": "Origin",
+                            "value": "IMPORTED"
+                        },
+                        {
+                            "name": "DateAvailableToSell",
+                            "value": "12/3/24"
+                        },
+                        {
+                            "name": "Material",
+                            "value": "POLYESTER BLEND"
+                        },
+                        {
+                            "name": "NoWarehouseStock",
+                            "value": false
+                        },
+                        {
+                            "name": "SeasonCode",
+                            "value": "S25"
+                        },
+                        {
+                            "name": "RegClassCode",
+                            "value": "100L"
+                        },
+                        {
+                            "name": "Group",
+                            "value": "SV2BSEAS"
+                        },
+                        {
+                            "name": "ProductColorCode",
+                            "value": 15
+                        },
+                        {
+                            "name": "Label",
+                            "value": "CALVIN KLEIN X"
+                        },
+                        {
+                            "name": "SuperDivision",
+                            "value": "MEN"
+                        },
+                        {
+                            "name": "SizeCode",
+                            "value": 463
+                        },
+                        {
+                            "name": "HazardousFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "WebFlag",
+                            "value": 2
+                        },
+                        {
+                            "name": "ColorDesc",
+                            "value": "LIGHT BLUE"
+                        },
+                        {
+                            "name": "ColorBreakoutDesc",
+                            "value": "BLUE NEAT"
+                        },
+                        {
+                            "name": "BigAndTallFlag",
+                            "value": false
+                        },
+                        {
+                            "name": "SpecialSizes",
+                            "value": "MENS REGULAR"
+                        },
+                        {
+                            "name": "SuperGroup",
+                            "value": "SVSEASSPCOAT"
+                        },
+                        {
+                            "name": "PrimarySize",
+                            "value": 46
+                        },
+                        {
+                            "name": "BTClassCode",
+                            "value": "100M"
+                        },
+                        {
+                            "name": "Fit",
+                            "value": "SLIM FIT"
+                        }
+                    ],
+                    "assets": [],
+                    "availability": {
+                        "isOnStock": true,
+                        "restockableInDays": 7,
+                        "availableQuantity": 100,
+                        "version": 1,
+                        "id": "972fd43e-4dc1-4498-ab8c-eaeb1f2b2206"
+                    }
+                }
+            ],
+            "searchKeywords": {},
+            "attributes": []
+        },
+        "published": true,
+        "hasStagedChanges": false
+    },
+    "key": "TMW_100L",
+    "taxCategory": {
+        "typeId": "tax-category",
+        "id": "52db75e3-986e-4602-ad65-ecb2f3d64f8a"
+    },
+    "lastVariantId": 12
+}
