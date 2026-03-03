@@ -7,6 +7,7 @@ import com.tailoredbrand.utils.GsonConfig;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 import com.google.cloud.pubsub.v1.Publisher;
 import com.google.protobuf.ByteString;
@@ -15,6 +16,7 @@ import com.google.pubsub.v1.TopicName;
 import com.google.gson.Gson;
 
 @Service
+@ConditionalOnProperty(name = "gcp.pubsub.enabled", havingValue = "true")
 @Slf4j
 public class PubSubPublisherService {
 

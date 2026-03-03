@@ -11,5 +11,9 @@ spring:
 gcp:
   project-id: sand-480914
   pubsub:
+    # Set to true only when running with real GCP credentials (local ADC or Workload Identity).
+    # When false, PubSubSubscriber, PubSubPublisherService, and PubSubController are
+    # skipped at startup — no GCP connection is attempted.
+    enabled: false
     topic: RFW-478
     subscription: RFW-478-sub

@@ -7,6 +7,7 @@ import com.tailoredbrand.service.PubSubPublisherService;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,6 +16,7 @@ import reactor.core.publisher.Flux;
 
 @RestController
 @RequestMapping("/api/pubsub")
+@ConditionalOnProperty(name = "gcp.pubsub.enabled", havingValue = "true")
 @Slf4j
 public class PubSubController {
 

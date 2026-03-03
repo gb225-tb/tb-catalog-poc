@@ -8,6 +8,7 @@ import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
 import com.google.cloud.pubsub.v1.MessageReceiver;
@@ -17,6 +18,7 @@ import com.google.pubsub.v1.SubscriptionName;
 import java.nio.charset.StandardCharsets;
 
 @Component
+@ConditionalOnProperty(name = "gcp.pubsub.enabled", havingValue = "true")
 @Slf4j
 public class PubSubSubscriber {
 
