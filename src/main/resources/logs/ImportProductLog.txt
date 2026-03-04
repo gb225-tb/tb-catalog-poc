@@ -1,0 +1,13 @@
+2026-03-04T17:59:10.988+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.controller.ImportController          : [IMPORT API] POST /api/import/products | file=product_import_template.csv size=1647
+2026-03-04T17:59:10.989+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportCsvParser     : [PRODUCT CSV] Parsed 1 product group(s)
+2026-03-04T17:59:10.989+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] Processing 1 product group(s)
+2026-03-04T17:59:10.989+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ── Pre-flight checks ──────────────────────────
+2026-03-04T17:59:11.267+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ product type 'furniture-and-decor' already exists — skipping creation
+2026-03-04T17:59:11.550+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ tax-category 'standard-tax' already exists
+2026-03-04T17:59:11.879+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ category 'home-decor' already exists
+2026-03-04T17:59:12.185+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ category 'new-arrivals' already exists
+2026-03-04T17:59:12.452+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ channel 'distribution-channel' already exists
+2026-03-04T17:59:12.453+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ── Pre-flight complete ─────────────────────────
+2026-03-04T17:59:12.453+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ► Processing product | key=geometric-pillow-case
+2026-03-04T17:59:13.130+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.i.product.ProductImportService       : [PRODUCT IMPORT] ✓ created | key=geometric-pillow-case
+2026-03-04T17:59:13.131+05:30  INFO 25202 --- [nio-8080-exec-5] c.t.controller.ImportController          : [IMPORT API] Products done | total=1 ok=1 fail=0

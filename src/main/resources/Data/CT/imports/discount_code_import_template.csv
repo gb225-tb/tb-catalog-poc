@@ -1,0 +1,2 @@
+key,name.en-GB,code,cartDiscounts,isActive,validFrom,validUntil,maxApplications,maxApplicationsPerCustomer,groups,custom.type.key,custom.type.typeId,custom.fields.date-time-field,custom.fields.boolean-field
+bogo,BOGO,BOGO,FurnitureBOGO;discount-2;discount-3,false,2024-05-22,2024-06-15,500,5,group-0;group-1,custom-type-key,type,2024-11-28T05:46:45.703Z,true

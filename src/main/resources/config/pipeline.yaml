@@ -24,8 +24,14 @@ commerce:
   # ── Token endpoint (OAuth2 client-credentials) ────────────────────────────
   authUrl: "https://auth.us-central1.gcp.commercetools.com"
   # Base64-encoded clientId:clientSecret  ← keep secret in production
-  clientCredentials: "TXhiNHd4N2UxdlgxWFBrM01IQktlci1OOlBiV0NnY0lVdE84UDlRUHpGcXpOT2lQUlBJMG1yWjRu"
-  scope: "manage_products:data-import"
+  # client_id : dwjDsHvbCQC1HbEC7kKyPc1A
+  # secret    : mINHdFCAL7ieO6s9ZFBwuEmNu_Zvm9Uw
+  clientCredentials: "ZHdqRHNIdmJDUUMxSGJFQzdrS3lQYzFBOm1JTkhkRkNBTDdpZU82czlaRkJ3dUVtTnVfWnZtOVV3"
+  # OAuth2 scope to request when fetching a client-credentials token.
+  # This admin client uses manage_project:data-import (full project access) instead of
+  # individual resource scopes, because CT token endpoint does strict exact-string matching —
+  # manage_project does NOT automatically allow requesting narrower sub-scopes separately.
+  scope: "manage_project:data-import"
 
   # ── Products API ──────────────────────────────────────────────────────────
   apiUrl: "https://api.us-central1.gcp.commercetools.com"

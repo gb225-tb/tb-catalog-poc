@@ -1,0 +1,11 @@
+2026-03-04T18:01:54.306+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.controller.ImportController          : [IMPORT API] POST /api/import/products/prices | file=product_price_import_template.csv size=984
+2026-03-04T18:01:54.307+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] Processing 1 product group(s)
+2026-03-04T18:01:54.307+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ── Pre-flight checks ──────────────────────────
+2026-03-04T18:01:54.574+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ✓ channel 'inventory-channel' already exists
+2026-03-04T18:01:55.129+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ✓ custom type 'custom-type-key-1' created for product-price
+2026-03-04T18:01:55.129+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ── Pre-flight complete ─────────────────────────
+2026-03-04T18:01:55.129+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ► Processing | productKey=geometric-pillow-case | prices=2
+2026-03-04T18:01:55.402+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ► changePrice | priceKey=price-key-1
+2026-03-04T18:01:55.402+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ► changePrice | priceKey=price-key-2
+2026-03-04T18:01:55.712+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.i.p.ProductPriceImportService        : [PRICE IMPORT] ✓ updated | productKey=geometric-pillow-case | 2 price action(s)
+2026-03-04T18:01:55.712+05:30  INFO 25202 --- [nio-8080-exec-9] c.t.controller.ImportController          : [IMPORT API] Product prices done | total=1 ok=1 fail=0

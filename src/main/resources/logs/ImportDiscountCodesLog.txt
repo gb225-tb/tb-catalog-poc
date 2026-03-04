@@ -1,0 +1,15 @@
+2026-03-04T17:19:34.700+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] POST /api/import/discount-codes | file=discount_code_import_template.csv size=359
+2026-03-04T17:19:34.703+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] Processing 1 discount code(s)
+2026-03-04T17:19:34.703+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ── Pre-flight checks ──────────────────────────
+2026-03-04T17:19:34.717+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ► Requesting OAuth token | authUrl=https://auth.us-central1.gcp.commercetools.com | scope=manage_project:data-import
+2026-03-04T17:19:34.718+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Initializing auth WebClient → https://auth.us-central1.gcp.commercetools.com
+2026-03-04T17:19:34.718+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Auth WebClient ready (connectTimeout=5000ms readTimeout=15000ms)
+2026-03-04T17:19:37.084+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ✓ Token acquired | type=Bearer | scope=manage_project:data-import | expiresIn=172689s | expiresAt=2026-03-06T11:47:46.084481Z
+2026-03-04T17:19:37.852+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ✓ cart-discount 'FurnitureBOGO' created (placeholder) | sortOrder=0.655068973
+2026-03-04T17:19:38.548+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ✓ cart-discount 'discount-2' created (placeholder) | sortOrder=0.536882865
+2026-03-04T17:19:39.131+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ✓ cart-discount 'discount-3' created (placeholder) | sortOrder=0.536882866
+2026-03-04T17:19:39.468+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ✓ custom type 'custom-type-key' already exists
+2026-03-04T17:19:39.468+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ── Pre-flight complete ─────────────────────────
+2026-03-04T17:19:39.468+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ► Processing | key=bogo
+2026-03-04T17:19:40.117+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.i.d.DiscountCodeImportService        : [DISCOUNT IMPORT] ✓ created | key=bogo
+2026-03-04T17:19:40.118+05:30  INFO 22580 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] Discount codes done | total=1 ok=1 fail=0s

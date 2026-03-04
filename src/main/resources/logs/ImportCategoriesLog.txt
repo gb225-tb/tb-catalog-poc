@@ -1,0 +1,18 @@
+2026-03-04T17:07:21.638+05:30  INFO 21717 --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/tb-catalog-poc]          : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-04T17:07:21.638+05:30  INFO 21717 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-04T17:07:21.642+05:30  INFO 21717 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-03-04T17:07:21.717+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] POST /api/import/categories | file=category_import_template.csv size=1320
+2026-03-04T17:07:21.723+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] Processing 2 category group(s)
+2026-03-04T17:07:21.723+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ── Pre-flight checks ──────────────────────────
+2026-03-04T17:07:21.735+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ► Requesting OAuth token | authUrl=https://auth.us-central1.gcp.commercetools.com | scope=manage_project:data-import
+2026-03-04T17:07:21.735+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Initializing auth WebClient → https://auth.us-central1.gcp.commercetools.com
+2026-03-04T17:07:21.735+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Auth WebClient ready (connectTimeout=5000ms readTimeout=15000ms)
+2026-03-04T17:07:23.965+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ✓ Token acquired | type=Bearer | scope=manage_project:data-import | expiresIn=172800s | expiresAt=2026-03-06T11:37:23.965736Z
+2026-03-04T17:07:24.845+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ✓ custom type 'my-custom-type-key-1' created
+2026-03-04T17:07:25.418+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ✓ custom type 'my-custom-type-key-2' created
+2026-03-04T17:07:25.419+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ── Pre-flight complete ─────────────────────────
+2026-03-04T17:07:25.420+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ► Processing | key=category-key-1
+2026-03-04T17:07:26.093+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ✓ created | key=category-key-1
+2026-03-04T17:07:26.093+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ► Processing | key=category-key-2
+2026-03-04T17:07:26.716+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.i.category.CategoryImportService     : [CATEGORY IMPORT] ✓ created | key=category-key-2
+2026-03-04T17:07:26.719+05:30  INFO 21717 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] Categories done | total=2 ok=2 fail=0

@@ -1,0 +1,30 @@
+2026-03-04T16:19:28.469+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ── Pre-flight checks ──────────────────────────
+2026-03-04T16:19:28.477+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ► Requesting OAuth token | authUrl=https://auth.us-central1.gcp.commercetools.com | scope=manage_customers:data-import manage_types:data-import manage_business_units:data-import manage_associate_roles:data-import manage_stores:data-import manage_products:data-import
+2026-03-04T16:19:28.477+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Initializing auth WebClient → https://auth.us-central1.gcp.commercetools.com
+2026-03-04T16:19:28.478+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Auth WebClient ready (connectTimeout=5000ms readTimeout=15000ms)
+2026-03-04T16:19:30.617+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ✓ Token acquired | type=Bearer | scope=view_customers:data-import manage_customers:data-import manage_types:data-import manage_business_units:data-import manage_associate_roles:data-import view_stores:data-import view_types:data-import view_associate_roles:data-import view_products:data-import manage_stores:data-import manage_products:data-import view_business_units:data-import | expiresIn=172762s | expiresAt=2026-03-06T10:48:52.617722Z
+2026-03-04T16:19:30.997+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ custom type 'addr-custom-type' already exists
+2026-03-04T16:19:31.297+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ custom type 'bu-custom-type' already exists
+2026-03-04T16:19:31.572+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ store 'uk' already exists
+2026-03-04T16:19:31.865+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ store 'europe' already exists
+2026-03-04T16:19:32.131+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ store 'default' already exists
+2026-03-04T16:19:32.410+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ store 'dach' already exists
+2026-03-04T16:19:32.676+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ associate-role 'admin' already exists
+2026-03-04T16:19:32.942+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ associate-role 'approver' already exists
+2026-03-04T16:19:33.208+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ associate-role 'buyer' already exists
+2026-03-04T16:19:33.855+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'oliver-smith' created (placeholder)
+2026-03-04T16:19:34.503+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'amelia-jones' created (placeholder)
+2026-03-04T16:19:35.189+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'william-taylor' created (placeholder)
+2026-03-04T16:19:35.843+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'james-smith' created (placeholder)
+2026-03-04T16:19:36.519+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'emma-johnson' created (placeholder)
+2026-03-04T16:19:37.139+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'michael-williams' created (placeholder)
+2026-03-04T16:19:37.714+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'lucas-dubois' created (placeholder)
+2026-03-04T16:19:38.365+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ customer 'camille-lefevre' created (placeholder)
+2026-03-04T16:19:38.365+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ── Pre-flight complete ─────────────────────────
+2026-03-04T16:19:38.365+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ► Processing Company | key=lifttech-solutions-ltd
+2026-03-04T16:19:39.077+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ created Company | key=lifttech-solutions-ltd
+2026-03-04T16:19:39.077+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ► Processing Company | key=eagle-heavy-lift-technologies-inc-us
+2026-03-04T16:19:39.650+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ created Company | key=eagle-heavy-lift-technologies-inc-us
+2026-03-04T16:19:39.650+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ► Processing Division | key=lifttech-solutions-ltd-fr
+2026-03-04T16:19:40.318+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.i.b.BusinessUnitImportService        : [BU IMPORT] ✓ created Division | key=lifttech-solutions-ltd-fr
+2026-03-04T16:19:40.320+05:30  INFO 18076 --- [nio-8080-exec-1] c.t.controller.ImportController          : [IMPORT API] BU import done | total=3 succeeded=3 failed=0

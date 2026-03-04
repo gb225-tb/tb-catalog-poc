@@ -1,0 +1,5 @@
+2026-03-04T17:59:52.663+05:30  INFO 25202 --- [nio-8080-exec-6] c.t.controller.ImportController          : [IMPORT API] POST /api/import/products/images | file=product_image_import_template.csv size=465
+2026-03-04T17:59:52.664+05:30  INFO 25202 --- [nio-8080-exec-6] c.t.i.p.ProductImageImportService        : [IMAGE IMPORT] Processing 1 product group(s)
+2026-03-04T17:59:52.664+05:30  INFO 25202 --- [nio-8080-exec-6] c.t.i.p.ProductImageImportService        : [IMAGE IMPORT] ► Processing | productKey=geometric-pillow-case | images=2
+2026-03-04T17:59:53.231+05:30  INFO 25202 --- [nio-8080-exec-6] c.t.i.p.ProductImageImportService        : [IMAGE IMPORT] ✓ updated | productKey=geometric-pillow-case | added 2 image(s)
+2026-03-04T17:59:53.232+05:30  INFO 25202 --- [nio-8080-exec-6] c.t.controller.ImportController          : [IMPORT API] Product images done | total=1 ok=1 fail=0

@@ -1,0 +1,10 @@
+2026-03-04T18:12:36.680+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] POST /api/import/products/price-tiers | file=product_price_tiers_import_template.csv size=356
+2026-03-04T18:12:36.683+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.i.p.ProductPriceTierImportService    : [TIER IMPORT] Processing 1 price-tier group(s)
+2026-03-04T18:12:36.685+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.i.p.ProductPriceTierImportService    : [TIER IMPORT] ► Processing | productKey=geometric-pillow-case | 1 price(s)
+2026-03-04T18:12:36.696+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ► Requesting OAuth token | authUrl=https://auth.us-central1.gcp.commercetools.com | scope=manage_project:data-import
+2026-03-04T18:12:36.697+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Initializing auth WebClient → https://auth.us-central1.gcp.commercetools.com
+2026-03-04T18:12:36.697+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] Auth WebClient ready (connectTimeout=5000ms readTimeout=15000ms)
+2026-03-04T18:12:39.076+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.commerce.CommerceToolsTokenService   : [CT AUTH] ✓ Token acquired | type=Bearer | scope=manage_project:data-import | expiresIn=172800s | expiresAt=2026-03-06T12:42:39.076553Z
+2026-03-04T18:12:39.463+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.i.p.ProductPriceTierImportService    : [TIER IMPORT] ⚠ price 'price-key-3' not on product — using addPrice+tiers fallback
+2026-03-04T18:12:39.847+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.i.p.ProductPriceTierImportService    : [TIER IMPORT] ✓ updated | productKey=geometric-pillow-case | 1 action(s)
+2026-03-04T18:12:39.855+05:30  INFO 26479 --- [nio-8080-exec-2] c.t.controller.ImportController          : [IMPORT API] Product price tiers done | total=1 ok=1 fail=0
