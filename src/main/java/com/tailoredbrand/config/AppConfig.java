@@ -39,6 +39,12 @@ public class AppConfig {
         private String uri;
         private String database;
         private String collection;
+        /** Catalog pipeline – Products collection (default: Products) */
+        private String productsCollection  = "Products";
+        /** Catalog pipeline – Variants collection (default: Variants) */
+        private String variantsCollection  = "Variants";
+        /** Catalog pipeline – Skus collection (default: Skus) */
+        private String skusCollection      = "Skus";
     }
 
     @Data

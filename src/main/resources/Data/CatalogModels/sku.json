@@ -1,0 +1,21 @@
+{
+  "_id": "TMW17FM36101",
+  "itemCode": "TMW17FM36101",
+  "productId": "TMW_17FM",
+  "variantId": "TMW_17FM_01",
+
+  "sizeCode": "361",
+  "sizeDescription": "36 Short",
+  "primarySize": "36",
+  "sizeDimension": "SHORT",
+  "sizeSequence": 1700,
+
+  "msrp": null,
+  "currentCost": 46.38,
+  "upc": "",
+  "dateAvailableToSell": "02/10/2025",
+
+  "createdAt": "08/01/2024",
+  "updatedAt": "09/20/2025",
+  "status": "ACTIVE"
+}

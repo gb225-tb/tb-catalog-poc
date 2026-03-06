@@ -1,0 +1,24 @@
+{
+  "_id": "TMW_17FM_01",
+  "variantId": "TMW_17FM_01",
+  "productId": "TMW_17FM",
+
+  "colorCode": "01",
+  "colorDescription": "NAVY SOLID",
+  "colorBreakoutDescription": "NAVY",
+  "colorFamily": "BLUE",
+
+  "msrp": null,
+  "isTemporaryMarkdown": false,
+  "isPermanentMarkdown": false,
+  "specialSizes": "MENS REGULAR",
+  "gender": "",
+
+  "heelHeight": "",
+  "length": "",
+  "sleeveLength": "",
+
+  "createdAt": "08/01/2024",
+  "updatedAt": "09/20/2025",
+  "status": "ACTIVE"
+}

@@ -11,7 +11,10 @@ gcp:
 mongodb:
   uri: "mongodb+srv://tb_gb225_db_user:7Ao2rXNvNJ9flhG7@tb-menswearclub.535gxzn.mongodb.net/?appName=tb-menswearclub"
   database: "catalog_db"
-  collection: "products"
+  collection: "products"           # legacy Pub/Sub streaming pipeline
+  productsCollection: "Products"   # catalog-to-mongo pipeline
+  variantsCollection: "Variants"
+  skusCollection: "Skus"
 
 pipeline:
   runner: "DirectRunner"   # DirectRunner OR DataflowRunner
